@@ -1,0 +1,1 @@
+function executar(){const compras=[];for(let posicao=1;posicao<=3;posicao++){const item=prompt("Digite o item "+posicao+" da compra:");compras.push(item);}document.querySelector("#resultado").textContent="Sua lista:\n- "+compras.join("\n- ");}

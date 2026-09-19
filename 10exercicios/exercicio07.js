@@ -1,0 +1,1 @@
+function executar(){const numeros=[12,5,37,8,24];let maior=numeros[0];for(let indice=1;indice<numeros.length;indice++){if(numeros[indice]>maior)maior=numeros[indice];}document.querySelector("#resultado").textContent="Lista: "+numeros.join(", ")+"\nMaior número: "+maior;}

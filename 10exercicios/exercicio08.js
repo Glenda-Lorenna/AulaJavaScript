@@ -1,0 +1,1 @@
+function executar(){const nota=Number(prompt("Digite uma nota de 0 a 10:"));let situacao;if(nota>=7)situacao="Aprovado(a)!";else if(nota>=5)situacao="Recuperação.";else situacao="Reprovado(a).";document.querySelector("#resultado").textContent="Nota: "+nota+"\nSituação: "+situacao;}

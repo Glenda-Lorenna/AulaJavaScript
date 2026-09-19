@@ -1,0 +1,1 @@
+function executar(){const inicio=Number(prompt("Começar a contar de qual número?"));let texto="";for(let numero=inicio;numero>=0;numero--){texto+=numero+(numero>0?", ":"!");}document.querySelector("#resultado").textContent=texto;}

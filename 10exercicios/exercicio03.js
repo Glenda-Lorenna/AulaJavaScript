@@ -1,0 +1,1 @@
+function executar(){const nota1=Number(prompt("Primeira nota:"));const nota2=Number(prompt("Segunda nota:"));const media=(nota1+nota2)/2;document.querySelector("#resultado").textContent="A média é "+media.toFixed(1);}

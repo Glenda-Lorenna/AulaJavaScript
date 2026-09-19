@@ -1,0 +1,1 @@
+function executar(){const celsius=Number(prompt("Temperatura em graus Celsius:"));const fahrenheit=(celsius*9/5)+32;document.querySelector("#resultado").textContent=celsius+" °C equivalem a "+fahrenheit.toFixed(1)+" °F.";}

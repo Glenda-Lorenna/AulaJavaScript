@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Desempenho da CPU</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<main class="panel">
+		<p class="eyebrow">Monitor de desempenho</p>
+		<h1>Processamento da CPU</h1>
+		<div class="meter" aria-label="Desempenho estimado da CPU">
+			<div id="progress" class="progress"></div>
+		</div>
+		<strong id="percentage">0%</strong>
+		<p id="status" role="status" aria-live="polite">Preparando medição...</p>
+		<p id="cores"></p>
+		<button id="measure-button" type="button">Medir novamente</button>
+		<small>Resultado estimado pelo processamento desta página.</small>
+	</main>
+
+	<script src="script.js"></script>
+</body>
+</html>

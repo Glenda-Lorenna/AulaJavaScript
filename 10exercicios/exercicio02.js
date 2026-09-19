@@ -1,0 +1,1 @@
+function executar(){const primeiro=Number(prompt("Digite o primeiro número:"));const segundo=Number(prompt("Digite o segundo número:"));document.querySelector("#resultado").textContent="Resultado: "+(primeiro+segundo);}

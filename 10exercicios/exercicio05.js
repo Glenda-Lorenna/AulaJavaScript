@@ -1,0 +1,1 @@
+function executar(){const numero=Number(prompt("Digite um número:"));let texto="";for(let contador=1;contador<=10;contador++){texto+=numero+" × "+contador+" = "+numero*contador+"\n";}document.querySelector("#resultado").textContent=texto;}
