@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Boas-vindas</title>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <section aria-live="polite">
+      <div id="name-view">
+        <p>Que bom ter você aqui</p>
+        <h1>Como podemos<br>te chamar?</h1>
+        <p>Digite seu nome para receber uma mensagem especial.</p>
+
+        <form id="name-form">
+          <label for="user-name">Seu nome</label>
+          <input id="user-name" name="name" type="text" placeholder="Ex.: Ana Silva" autocomplete="name" required>
+          <button type="submit">Continuar <span aria-hidden="true">&rarr;</span></button>
+        </form>
+      </div>
+
+      <div id="greeting-view" hidden>
+        <p>Sua visita faz o dia melhor</p>
+        <h1>Seja bem-vindo(a),<br><span id="greeting-name"></span>!</h1>
+        <p>Este espaço também é seu. Aproveite!</p>
+        <button id="change-name" type="button">Trocar nome</button>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

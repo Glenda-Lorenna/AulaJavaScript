@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<noticias>
+  <noticia>
+    <titulo>JavaScript no navegador</titulo>
+    <resumo>O JavaScript permite criar páginas interativas e dinâmicas.</resumo>
+  </noticia>
+  <noticia>
+    <titulo>AJAX e XMLHttpRequest</titulo>
+    <resumo>AJAX permite carregar dados sem recarregar a página.</resumo>
+  </noticia>
+  <noticia>
+    <titulo>Manipulação do DOM</titulo>
+    <resumo>O DOM permite criar, alterar e remover elementos HTML.</resumo>
+  </noticia>
+</noticias>
